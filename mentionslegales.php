@@ -13,31 +13,27 @@
                   <tbody>
                     <tr>
                       <td>Raison sociale</td>
-                      <td>7h - 19h</td>
-                    </tr>
-                    <tr>
-                      <td>Forme juridique</td>
-                      <td>7h - 19h</td>
+                      <td>SAS ATI L'Art du Pain</td>
                     </tr>
                     <tr>
                       <td>Adresse</td>
-                      <td>7h - 19h</td>
+                      <td>22 rue de Roubaix - 59000 Lille</td>
                     </tr>
                     <tr>                            
                       <td>Montant du capital social</td>
-                      <td>7h - 19h</td>
+                      <td>7652 €</td>
                     </tr>
                     <tr>                            
                       <td>Email</td>
-                      <td>contact@artdupain.fr</td>
+                      <td>artdupain@orange.fr</td>
                     </tr>
                     <tr>                            
                       <td>Numéro de téléphone</td>
                       <td>03.20.31.32.73</td>
                     </tr>
                     <tr>                            
-                      <td>Numéro d'inscription au registre du commerce et des sociétés (RCS)</td>
-                      <td>7h - 15h</td>
+                      <td>RCS LILLE Métropole</td>
+                      <td>350 648 861</td>
                     </tr>
                     <tr>                            
                       <td>Numéro d'immatriculation au répertoire des métiers (RM)</td>
@@ -45,11 +41,11 @@
                     </tr>
                     <tr>                            
                       <td>Numéro individuel d'identification fiscale </td>
-                      <td>Fermé</td>                            
+                      <td> FR 25350648861</td>                            
                     </tr>
                     <tr>                            
                       <td>Hébergeur du site</td>
-                      <td>Fermé</td>                            
+                      <td>OVH</td>                            
                     </tr>
                     <tr>                            
                       <td>Adresse</td>
@@ -58,6 +54,10 @@
                     <tr>                            
                       <td>Téléphone</td>
                       <td>09.72.10.10.07</td>                            
+                    </tr>
+					<tr>                            
+                      <td></td>
+                      <td></td>                            
                     </tr>
                   </tbody>
                 </table>

@@ -1,20 +1,18 @@
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p><a href="mentionslegales.php">Mentions Légales</a></p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 text-center">
+				<p>
+					<a href="mentionslegales.php">Mentions Légales</a>
+				</p>
+			</div>
+			<div class="col-lg-6 text-center">
+				<p>
+					<a href="https://www.facebook.com/artdupainlille/?fref=ts">Rejoignez-nous sur Facebook!</a>
+				</p>				
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
 </body>
-
 </html>

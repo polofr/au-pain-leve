@@ -21,7 +21,56 @@
                 <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
             </div>
-            <div class="clearfix"></div>
+			
+			
+			<div class="col-md-6">
+                
+<?php
+$link = mysqli_connect("localhost", "root", "", "artdupain");
+
+if (mysqli_connect_errno()) {
+    printf("Échec de la connexion : %s\n", mysqli_connect_error());
+    exit();
+}
+			
+// it begins with 0, the database begins with 1 (+1)
+// we want to get tomorrow (+1)			
+$day_number = date("z") + 2;
+
+// if it is not bissectile and we are already in March (+1)		
+if( $day_number > 59 && date("L") == 0 ){
+	
+	$day_number = $day_number + 1;
+}
+
+// if too big, tomorrow is 1st January
+if( $day_number > 366 ){
+	
+	$day_number = 1;
+}
+
+$query = sprintf("SELECT first_name FROM prenoms WHERE id='%d'", $day_number );
+
+if ($result = mysqli_query($link, $query) ) {
+	
+	if( mysqli_num_rows($result) != 1 ) {
+    
+		printf("Select a retourné %d lignes.\n", mysqli_num_rows($result));
+		exit();
+	}    
+
+    while ($row = $result->fetch_row()) {
+		echo "<p>Aujourd'hui c'est le ". date("d M Y") . ". Demain c'est la fête des ". $row[0] ."</p>";
+    }
+    
+    mysqli_free_result($result);
+}
+
+mysqli_close($link);
+
+?>				
+			</div>
+			<div class="clearfix"></div>
         </div>
     </div>
 
@@ -30,11 +79,11 @@
             <div class="col-lg-12">
                 <hr>
                 <h2 class="intro-text text-center">
-                    <strong>Nos speciliates patisseries</strong>
+                    <strong>Nos spécialités pâtisseries</strong>
                 </h2>
                 <hr>
                 <p class="text-center">
-                    Notre equipe de patissiers est a la baguette pour vous offrir ces classiques de notre region
+                    Notre équipe de pâtissiers est à la baguette pour vous offrir ces classiques de notre région!
                 </p>
             </div>
             <div class="clearfix"></div>
@@ -42,21 +91,21 @@
                 <img class="img-responsive" src="./img/tarte_au_sucre_vergeoise_6_personnes.jpg" alt="">
                 <h3>La tarte au sucre                     
                 </h3>
-                <p>Typique du nord de la France, nos amis Quebecois remplacent la vergeoise par du sirop d'érable. 
+                <p>Typique du nord de la France, nos amis Québecois remplacent la vergeoise par du sirop d'érable. 
                 </p>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="./img/merveilleux_chocolat_noir_individuel.jpg" alt="">
                 <h3>Le merveilleux
                 </h3>
-                <p>Ce petit gateau mi-belge mi-nordiste prend diverses appelations selon les regions: tête de nègre, boule choco voire meme arlequin! 
+                <p>Ce petit gateau mi-belge mi-nordiste prend diverses appellations selon les regions: tête de nègre, boule choco voire même arlequin! 
                 </p>
             </div>
             <div class="col-sm-4 text-center">
                 <img class="img-responsive" src="./img/merveilleux_chocolat_noir_individuel.jpg" alt="">
                 <h3>Le moelleux au chocolat
                 </h3>
-                <p>Du bon chocolat mais surtout un temps de cuisson parfait, c'est la que reside son secret. 
+                <p>Du bon chocolat mais surtout un temps de cuisson parfait, c'est là que réside son secret.
                 </p>
             </div>
             <div class="clearfix"></div>
