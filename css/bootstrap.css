@@ -6244,7 +6244,7 @@ button.close {
   position: relative;
   width: 100%;
   overflow: hidden;
-  min-height: 120px;
+  height: 100%;
 }
 .carousel-inner > .item {
   position: relative;
@@ -6442,8 +6442,9 @@ button.close {
   .carousel-control .icon-next {
     width: 30px;
     height: 30px;
-    margin-top: -10px;
-    font-size: 30px;
+    margin-top: -60px;
+    font-size: 60px;
+    color: black;
   }
   .carousel-control .glyphicon-chevron-left,
   .carousel-control .icon-prev {
