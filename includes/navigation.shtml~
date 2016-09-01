@@ -23,7 +23,7 @@
                         <a href="index.php">Accueil</a>
                     </li>
 					<li>
-                        <a href="produits.php">Nos produits</a>
+                        <a href="index.php">Nos produits</a>
                     </li>
 					<li>
                         <a href="contact.php">Commandes</a>
