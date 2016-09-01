@@ -14,7 +14,7 @@
                 <hr>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                <img class="img-responsive img-border-left img-rounded" src="img/slide-2.jpg" alt="">
             </div>
             <div class="col-md-6">
                 <p>This is a great place to introduce your company or project and describe what you do.</p>
@@ -76,44 +76,6 @@ mysqli_close($link);
 
     <div class="row">
         <div class="box">
-            <div class="col-lg-12">
-                <hr>
-                <h2 class="intro-text text-center">
-                    <strong>Nos spécialités pâtisseries</strong>
-                </h2>
-                <hr>
-                <p class="text-center">
-                    Notre équipe de pâtissiers est à la baguette pour vous offrir ces classiques de notre région!
-                </p>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="./img/tarte_au_sucre_vergeoise_6_personnes.jpg" alt="">
-                <h3>La tarte au sucre                     
-                </h3>
-                <p>Typique du nord de la France, nos amis Québecois remplacent la vergeoise par du sirop d'érable. 
-                </p>
-            </div>
-            <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="./img/merveilleux_chocolat_noir_individuel.jpg" alt="">
-                <h3>Le merveilleux
-                </h3>
-                <p>Ce petit gateau mi-belge mi-nordiste prend diverses appellations selon les regions: tête de nègre, boule choco voire même arlequin! 
-                </p>
-            </div>
-            <div class="col-sm-4 text-center">
-                <img class="img-responsive" src="./img/merveilleux_chocolat_noir_individuel.jpg" alt="">
-                <h3>Le moelleux au chocolat
-                </h3>
-                <p>Du bon chocolat mais surtout un temps de cuisson parfait, c'est là que réside son secret.
-                </p>
-            </div>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="box">
             <div class="col-lg-12 text-center">
                 <hr>
                     <h2 class="intro-text text-center">
@@ -123,8 +85,8 @@ mysqli_close($link);
                 <div id="carousel-example-generic" class="carousel slide">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
-<?php $timestamp = time() % 52; ?>
-<div class="item  <?php echo $timestamp == 0 ? 'active' : '' ?> lateral-padding">
+<?php $timestamp = time() % 58; ?>
+<div class="item <?php echo $timestamp == 0 ? 'active' : '' ?> lateral-padding">
     <p>
 La tarte Tatin serait originaire de Lamotte-­Beuvron, en Sologne. Les sœurs Stéphanie et Caroline y tenaient un restaurant, qui existe toujours sous le nom d'Hôtel Tatin, face à la gare. Un dimanche d'ouverture de la chasse, alors qu'elle préparait une tarte aux pommes, Stéphanie, étourdie, oublia dans le feu de l'action de mettre une pâte dans le moule et l'enfourna simplement avec des pommes. S'apercevant de son oubli, elle décida de rajouter simplement la pâte par-dessus les pommes! Les chasseurs ont apprécié, la tarte Tatin était née.
     </p>
@@ -134,17 +96,17 @@ La tarte Tatin serait originaire de Lamotte-­Beuvron, en Sologne. Les sœurs St
 Débarqué en Provence au début des années 1950, Alexandre Micka, pâtissier d'origine polonaise, décida d'ouvrir une boulangerie pâtisserie à Saint-Tropez. Il apporta de Pologne la recette d'un gâteau brioché à la crème de sa grand-mère. En 1955, le film de Roger Vadim, « Et Dieu... créa la femme » est tourné à Saint-Tropez. Chargé de réaliser les repas pour toute l'équipe, Alexandre présente sa tarte. Brigitte Bardot lui suggère de la nommer « tarte de Saint-Tropez ». Le pâtissier, lui, opte pour « tarte tropézienne ».
     </p>
 </div>
-<div class="item <?php echo $timestamp == 3 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 2 ? 'active' : '' ?> lateral-padding">
     <p>
 Saint­Honoré est le patron de la boulangerie, il a donné son nom à la pâtisserie du même nom faite d'un fond de pâte garni de choux.
     </p>
 </div>
-<div class="item <?php echo $timestamp == 4 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 3 ? 'active' : '' ?> lateral-padding">
     <p>
 Le canelé est lié à l'histoire de Bordeaux et du vin. En effet, dans la vinification, le collage consiste à filtrer le vin en cuve avec traditionnellement du blanc d'œuf. Ce procédé coûteux, encore utilisé par certains châteaux, voyait tout le personnel des châteaux casser des œufs et séparer les blancs des jaunes qui étaient donnés aux Petites sœurs des pauvres lesquelles auraient confectionné le gâteau.
     </p>
 </div>
-<div class="item <?php echo $timestamp == 27 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 4 ? 'active' : '' ?> lateral-padding">
     <p>
 Pour chaque situation, il existe un proverbe, ou une expression, qui fait allusion au pain : "Désirable comme un pain frais". "Bon comme du bon pain". "Etre à l'eau et au pain sec". "Pas de pain sans sueur". Une source de revenu est considérée comme un "gagne-pain". "Avoir du pain sur la planche". "Long comme un jour sans pain". Les ennuis sont le "pain quotidien". Un produit qui se vend bien "part comme des petits pains".
     </p>
@@ -249,17 +211,17 @@ Pendant très longtemps, chacun n'a eu accès qu'au pain de sa propre condition.
 Dès le Moyen Age, à Paris, le boulanger pouvait livrer son pain chez ses clients. Dans les campagnes, il est d'abord passé avec son âne ou sa charrette avant de venir à heure fixe en camionnette. Autrefois le passage de ce boulanger était l'occasion pour les femmes de s'assembler et d'échanger les nouvelles. 
     </p>
 </div>
-<div class="item lateral-padding">
+<div class="item <?php echo $timestamp == 25 ? 'active' : '' ?> lateral-padding">
     <p>
 Aujourd'hui, la boulangerie est un des éléments essentiels de l'aménagement des lieux de vie des Français, originalité de leur civilisation. En campagne la disparition d'un boulanger peut faire disparaître l'âme d'un bourg. Le boulanger donne de la satisfaction, du plaisir et une occasion de relations sociales autant qu'il nous vend du pain. Les municipalités viennent d'ailleurs à subventionner certains boulangers afin qu'ils ne quittent pas le village et que celui-ci continue à vivre. Certains déclareraient même les boulangeries d'utilité publique !
     </p>
 </div>
-<div class="item <?php echo $timestamp == 25 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 26 ? 'active' : '' ?> lateral-padding">
     <p>
 Superstitions : le pain ne doit jamais être coupé des deux côtés à la fois, ou ne jamais être laissé à l'envers sur une table, cela porterait malheur!
     </p>
 </div>
-<div class="item <?php echo $timestamp == 26 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 27 ? 'active' : '' ?> lateral-padding">
     <p>
 Pour chaque situation, il existe un proverbe, ou une expression, qui fait allusion au pain : "Il faut travailler pour gagner du blé", "Apporter de l'eau à son moulin", "Etre dans le pétrin", "Chacun doit mettre la main à la pâte", "Etre comme un coq en pâte"... 
     </p>
@@ -284,52 +246,52 @@ Le pain ne contient que 4 ingrédients : de la farine, de l'eau, du levain et du
 La mouture a pour but de séparer l'amande du grain de blé de ses enveloppes pour la transformer en farine. Elle est constituée de deux étapes : la rupture du grain (broyage) et le système de réduction en farine (claquage et convertissage). Plusieurs types de farine sont mélangés par le meunier pour obtenir la qualité de farine souhaitée par le boulanger.
     </p>
 </div>
-<div class="item <?php echo $timestamp == 49 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 32 ? 'active' : '' ?> lateral-padding">
     <p>
 Le pain boulot ou pain à tartine est typique du Nord-Pas-de-Calais. Ce pain de 4 livres, lourd et long a une forme qui se situe entre le gros bâtard et la miche du début de siècle. Il est fabriqué avec une farine blanche et poussé à l'aide d'un levain. La qualité de ce pain dépend vraiment du travail du boulanger et des matières premières utilisées. Il doit recevoir en principe 4 coups de lame avant l'enfournement.
     </p>
 </div>
-<div class="item <?php echo $timestamp == 32 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 33 ? 'active' : '' ?> lateral-padding">
     <p>
 La production céréalière est pratiquement partout le fait d'agriculteurs indépendants. Ils sont aujourd'hui 45000 qui cultivent du blé en France. Le blé tendre a toujours représenté une part importante de leurs surfaces cultivées. Au début du siècle, elles étaient de 7 millions d'hectares, contre 3,5 à 4,7 millions d'hectares aujourd'hui. Cette baisse a été compensée par une forte augmentation des rendements. Ceci permet donc de produire 30 millions de tonnes. Les agriculteurs, après la moisson, en prélèvent une partie, estimée à 4 millions de tonnes, pour les prochaines semailles et l'alimentation du bétail.
     </p>
 </div>
-<div class="item <?php echo $timestamp == 33 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 34 ? 'active' : '' ?> lateral-padding">
     <p>
 Du choix du blé dépend la qualité de la farine et donc du bon pain. Il existe, de nos jours, de nombreuses variétés de blé obtenues par croisement des variétés. 
     </p>
 </div>
-<div class="item <?php echo $timestamp == 34 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 35 ? 'active' : '' ?> lateral-padding">
     <p>
 La récolte mondiale de blé s'élève à 600 millions de tonnes. En comparaison, la récolte mondiale de l'ensemble des céréales dépasse les 2 milliards de tonnes.
     </p>
 </div>
-<div class="item <?php echo $timestamp == 35 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 36 ? 'active' : '' ?> lateral-padding">
     <p>
 Le blé est la céréale la plus produite au monde. La Chine et l'Union Européenne sont toujours les deux producteurs principaux de blé dans le monde avec respectivement 109 millions de tonnes et 99 millions de tonnes.
     </p>
 </div>
-<div class="item <?php echo $timestamp == 36 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 37 ? 'active' : '' ?> lateral-padding">
     <p>
 Pour fabriquer les pains dits aux céréales, l'épeautre, l'avoine, le millet ou le sarrasin peuvent être utilisées. 
     </p>
 </div>
-<div class="item <?php echo $timestamp == 37 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 38 ? 'active' : '' ?> lateral-padding">
     <p>
 Le moulin à eau est apparu au VIème siècle à l'époque Carolingienne dans les régions montagneuses du Proche-Orient. Les ingénieurs romains imaginent alors d'utiliser la force de l'eau des rivières en y plongeant des grosses roues qui entraînent les meules. Le moulin à vent est utilisé depuis le VIIe Siècle en Orient où l'eau est rare. Il faudra attendre que les Chevaliers nous en rapportent l'idée au retour de croisades. 
     </p>
 </div>
-<div class="item <?php echo $timestamp == 38 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 39 ? 'active' : '' ?> lateral-padding">
     <p>
 Le meunier est un personnage essentiel de l'histoire du pain. Dans la France du Moyen-Age, il est le maître du moulin, propriété du Roi, du Seigneur ou de l'abbaye. On faisait couramment appel à lui en qualité de guérisseur. II était un peu à l'image du prêtre ou du tavernier, l'agent social, économique, politique de toutes sortes d'échanges. Il a été très longtemps le notable du village.
     </p>
 </div>
-<div class="item <?php echo $timestamp == 39 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 40 ? 'active' : '' ?> lateral-padding">
     <p>
 Le travail du meunier consistait simplement à écraser le blé sous la meule et à livrer telle quelle la boulange. Le boulanger se chargeait ensuite de tamiser pour séparer la farine et le son. Pour 120 kg de blé, on obtenait environ 40 à 45 kg de farine. A partir du milieu du XIIIe siècle, les meuniers améliorent la qualité de leur travail : ils nettoient le grain avant la mouture et par la suite les meuniers bluteront eux-mêmes leur farine. En 1740, ils obtiennent l'autorisation de remoudre les sons pour en extraire le reste de farine. Ainsi leur productivité atteint 93 kg de farine pour 120 kg de blé.
     </p>
 </div>
-<div class="item <?php echo $timestamp == 40 ? 'active' : '' ?> lateral-padding">
+<div class="item <?php echo $timestamp == 41 ? 'active' : '' ?> lateral-padding">
     <p>
 La poussière de farine en suspension dans l'air est explosive, car c'est un mélange d'une fine poudre inflammable avec de l'air. Dans les usines du Moyen Âge, les bougies, les lampes, et les autres sources de feu étaient interdites. Certaines explosions dévastatrices se sont produites dans les moulins à farine, comme l'explosion de Washburn "A" Mill, à Minneapolis, en 1878. Cet accident avait fait 18 morts.
     </p>
