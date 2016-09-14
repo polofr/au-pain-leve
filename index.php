@@ -17,9 +17,7 @@
                 <img class="img-responsive img-border-left img-rounded" src="img/slide-2.jpg" alt="">
             </div>
             <div class="col-md-6">
-                <p>This is a great place to introduce your company or project and describe what you do.</p>
-                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p>Boulangerie pâtisserie lilloise renommée, l'Art du Pain reçoit, dès 2009, ses premières demandes de tartes au sucre pour un acteur du circuit court. Puis pour un deuxième, puis pour un troisième... Il faut croire qu'elles étaient bonnes! Aujourd'hui c'est 1000 tartes qui sortent de notre atelier chaque semaine. Nos pâtisseries, ce sont trois caractéristiques : elles sont artisanales, réalisées par notre équipe de quatre pâtissiers, gage de qualité. Nos pâtisseries sont locales, fabriquées dans notre atelier à Lille, près de chez vous. Nos pâtisseries ont une DLC allant jusqu'à J+4, ce qui facilite votre gestion de stock. Nos pâtisseries sont savoureuses. Le mieux, ce serait de les goûter; nous vous proposons de fixer un rendez-vous pour une dégustation.</p>
             </div>
 			
 			

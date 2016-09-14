@@ -5,7 +5,7 @@
 <div class="container">
     <div class="row">
         <div class="box">
-            <div class="col-md-8 large-padding">                
+            <div class="col-md-12 large-padding">                
                 <h2 class="intro-text">
                     <strong>Mentions Légales</strong>
                 </h2>     
@@ -48,11 +48,11 @@
                       <td>OVH</td>                            
                     </tr>
                     <tr>                            
-                      <td>Adresse</td>
+                      <td>Adresse de l'hébergeur</td>
                       <td>2 rue Kellermann - 59100 Roubaix</td>                            
                     </tr>
                     <tr>                            
-                      <td>Téléphone</td>
+                      <td>Téléphone de l'hébergeur</td>
                       <td>09.72.10.10.07</td>                            
                     </tr>
 					<tr>                            
