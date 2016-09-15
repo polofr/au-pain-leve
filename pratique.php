@@ -53,10 +53,8 @@
                     <tr>
                       <td>22, rue de Roubaix, Lille
                         <br>03.20.31.32.73
-                        <br><a href="mailto:contact@artdupain.fr">contact@artdupain.fr</a>
+                        <br><a href="mailto:artdupain@orange.fr">artdupain@orange.fr</a>
                       </td>
-                    </tr>
-                    <tr>
                     </tr>
                   </tbody>
                   </table>

@@ -8,66 +8,46 @@
         <div class="box">
             <div class="col-lg-12">
                 <hr>
-                <h2 class="intro-text text-center">About
-                    <strong>business casual</strong>
+                <h2 class="intro-text text-center">
+                    <strong>L'équipe</strong>
                 </h2>
                 <hr>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive img-border-left img-rounded" src="img/slide-2.jpg" alt="">
+                <img class="img-responsive img-border-left img-rounded" src="img/equipe_au_complet.jpg" alt="L'équipe de l'Art du Pain au complet">
             </div>
             <div class="col-md-6">
-                <p>Boulangerie pâtisserie lilloise renommée, l'Art du Pain reçoit, dès 2009, ses premières demandes de tartes au sucre pour un acteur du circuit court. Puis pour un deuxième, puis pour un troisième... Il faut croire qu'elles étaient bonnes! Aujourd'hui c'est 1000 tartes qui sortent de notre atelier chaque semaine. Nos pâtisseries, ce sont trois caractéristiques : elles sont artisanales, réalisées par notre équipe de quatre pâtissiers, gage de qualité. Nos pâtisseries sont locales, fabriquées dans notre atelier à Lille, près de chez vous. Nos pâtisseries ont une DLC allant jusqu'à J+4, ce qui facilite votre gestion de stock. Nos pâtisseries sont savoureuses. Le mieux, ce serait de les goûter; nous vous proposons de fixer un rendez-vous pour une dégustation.</p>
+                <p>Boulangerie pâtisserie lilloise renommée, l'Art du Pain reçoit, dès 2009, ses premières demandes de tartes au sucre pour un acteur du circuit court. Puis pour un deuxième, puis pour un troisième... Il faut croire qu'elles étaient bonnes!
+                </p>
+                <p>Aujourd'hui c'est 1000 tartes qui sortent de notre atelier chaque semaine. Nos pâtisseries, ce sont trois caractéristiques : elles sont artisanales, réalisées par notre équipe de quatre pâtissiers, gage de qualité. Nos pâtisseries sont locales, fabriquées dans notre atelier à Lille, près de chez vous. Nos pâtisseries ont une DLC allant jusqu'à J+4, ce qui facilite votre gestion de stock.
+                </p>
+                <p>Nos pâtisseries sont savoureuses. Le mieux, ce serait de les goûter; nous vous proposons de fixer un rendez-vous pour une dégustation.</p>
             </div>
-			
-			
-			<div class="col-md-6">
-                
-<?php
-$link = mysqli_connect("localhost", "root", "password", "artdupain");
+			<div class="clearfix"></div>
+        </div>
+    </div>
 
-if (mysqli_connect_errno()) {
-    printf("Échec de la connexion : %s\n", mysqli_connect_error());
-    exit();
-}
-			
-// it begins with 0, the database begins with 1 (+1)
-// we want to get tomorrow (+1)			
-$day_number = date("z") + 2;
-
-// if it is not bissectile and we are already in March (+1)		
-if( $day_number > 59 && date("L") == 0 ){
-	
-	$day_number = $day_number + 1;
-}
-
-// if too big, tomorrow is 1st January
-if( $day_number > 366 ){
-	
-	$day_number = 1;
-}
-
-$query = sprintf("SELECT first_name FROM prenoms WHERE id='%d'", $day_number );
-
-if ($result = mysqli_query($link, $query) ) {
-	
-	if( mysqli_num_rows($result) != 1 ) {
-    
-		printf("Select a retourné %d lignes.\n", mysqli_num_rows($result));
-		exit();
-	}    
-
-    while ($row = $result->fetch_row()) {
-		echo "<p>Aujourd'hui c'est le ". date("d M Y") . ". Demain c'est la fête des ". $row[0] ."</p>";
-    }
-    
-    mysqli_free_result($result);
-}
-
-mysqli_close($link);
-
-?>				
-			</div>
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h2 class="intro-text text-center">
+                    <strong>L'atelier</strong>
+                </h2>
+                <hr>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive img-border-left img-rounded" src="img/devant_la_machine_a_petrir.jpg" alt="Le pâtissier devant la machine à pétrir.">
+            </div>
+            <div class="col-md-4">
+                <p>Notre équipe, ce sont avant tout des passionnés. Leur plus grand plaisir, vous surprendre avec une de leurs nouvelles créations.</p>
+                <p>Le secret de l'Art du Pain, un esprit d'équipe, une grande dose de bonne humeur et une envie de partager avec vous notre métier!</p>
+                <p>Résultat : nous sommes réactifs à vos demandes et notre ambition est de satisfaire vos attentes au plus vite. Tous les jours, nous sommes fiers de vous régaler!</p>
+                <p> D'ailleurs, pour accompagner nos clients, nous projettons très bientôt de lancer notre gamme de pâtisseries à partir d'ingrédients issus de l'agriculture biologique.</p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-responsive img-border-right img-rounded" src="img/fabrication_tarte_citron_meringue.jpg" alt="La fabrication de la tarte citron meringuée.">
+            </div>
 			<div class="clearfix"></div>
         </div>
     </div>

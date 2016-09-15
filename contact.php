@@ -48,7 +48,7 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
         <div class="box">
             <div class="col-lg-12">
                 <hr>
-                    <h2 class="intro-text text-center">Nous Contacter</h2>
+                    <h2 class="intro-text text-center"><strong>Nous Contacter</strong></h2>
                 <hr>          
                 <p>Professionel ou particulier, vous recherchez des prestations d'une boulangerie pâtisserie artisanale, nous mettons notre savoir-faire à votre service: nous livrons quotidiennement dans la métropole lilloise, avec une équipe et des installations en conséquence. 
                 </p>

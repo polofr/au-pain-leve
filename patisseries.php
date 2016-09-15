@@ -29,7 +29,7 @@
                 </p>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive img-rounded" src="./img/moelleux_au_chocolat.jpg" alt="le moelleux au chocolat">
+                <img class="img-responsive img-rounded" src="./img/moelleux_au_chocolat_2.jpg" alt="le moelleux au chocolat">
                 <h3>Le moelleux au chocolat
                 </h3>
                 <p>Du bon chocolat mais surtout un temps de cuisson parfait, c'est là que réside son secret.
@@ -56,7 +56,7 @@
                 </p>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive img-border-left img-rounded" src="img/galettes_des_rois.jpg" alt="2 galettes des rois">
+                <img class="img-responsive img-border-right img-rounded" src="img/galettes_des_rois.jpg" alt="2 galettes des rois">
             </div>
         </div>
     </div>
@@ -78,7 +78,7 @@
                 <p>Nos pâtissiers imaginent pour vous des tartes et tartelettes réalisées avec les fruits de saison. Essayez la rhubarbe, les framboises, les fraises, les poires chocolat, les pommes ou encore les tartes meringuées au citron !</p>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive img-border-left img-rounded" src="./img/tartelette_aux_framboises.jpg" alt="tartelette_aux_framboises">
+                <img class="img-responsive img-border-right img-rounded" src="./img/tartelette_aux_framboises.jpg" alt="tartelette_aux_framboises">
             </div>
             <div class="clearfix"></div>
         </div>

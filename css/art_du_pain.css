@@ -143,6 +143,12 @@ footer p {
     margin-right:auto;
 }
 
+.breakfast-box {
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;

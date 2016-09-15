@@ -12,10 +12,10 @@
                 <hr>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive img-border-left img-rounded" src="img/quiche.jpg" alt="quiche">
+                <img class="img-responsive img-border-left img-rounded" src="img/quiche.jpg" alt="Une quiche avec salade">
             </div>
             <div class="col-md-6">
-                <p>Toute la semaine, nous proposons des formules pour votre repas du midi. À cela, ajoutez, si vous le désirez, une boisson et un délicieux dessert de l'Art du Pain !</p>
+                <p>Toute la semaine, nous proposons des formules pour votre repas du midi. Au sandwich, ajoutez, si vous le désirez, une boisson et un délicieux dessert de l'Art du Pain !</p>
                 <p>Décidez-vous pour le sandwich poulet curry, jambon cru, végétarien, saumon ou encore filet américain. Pour varier les plaisirs, osez le croque-monsieur, la tarte au Maroilles ou nos quiches régionales.</p>
             </div>
             <div class="clearfix"></div>            
@@ -37,7 +37,7 @@
                 <p>Et bien sûr, n'oublions pas les baguettes!</p>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive img-border-left img-rounded" src="img/assortiment_de_pains.jpg" alt="assortiment de pains">
+                <img class="img-responsive img-border-right img-rounded" src="img/assortiment_de_pains.jpg" alt="Un assortiment de pains">
             </div>
             <div class="clearfix"></div>            
         </div>
