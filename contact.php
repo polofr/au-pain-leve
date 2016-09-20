@@ -2,12 +2,13 @@
 	if (isset($_POST["submit"])) {
 		$name = $_POST['name'];
 		$email = $_POST['email'];
+        $phone = $_POST['phone'];
 		$message = $_POST['message'];
-		$from = 'Demo Contact Form'; 
+		$from = 'Un utilisateur Web'; 
 		$to = 'paulhenri.carton@gmail.com'; 
 		$subject = 'Message ou commande envoyé(e) depuis le site internet';
 		
-		$body ="From: $name\n E-Mail: $email\n Message:\n $message";
+		$body ="From: $name\n E-Mail: $email\n Téléphone: $phone\n Message:\n $message";
 		// Check if name has been entered
 		if (!$_POST['name'] || $_POST['name'] == "" ) {
 			$errName = 'S\'il vous plait, entrez votre nom';
@@ -31,9 +32,9 @@
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
 	if ( mail($to, $subject, $body, $from) ) {
-		$result='<div class="alert alert-success">Thank You! I will be in touch</div>';
+		$result='<div class="alert alert-success">Merci! Nous vous recontactons au plus vite!</div>';
 	} else {
-		$result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
+		$result='<div class="alert alert-danger">Une erreur est survenue lors de l\'envoi. Veuillez réessayer plus tard. Merci!</div>';
 	}
 }
 	}
