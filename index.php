@@ -64,7 +64,7 @@
                         <strong>Le saviez-vous?</strong>
                     </h2>
                 <hr>
-                <div id="carousel-example-generic" class="carousel slide">
+                <div id="carousel-pain" class="carousel slide" data-interval="10000">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
 <?php $timestamp = time() % 58; ?>
@@ -356,10 +356,10 @@ La faluche est typique du Nord-Pas-de-Calais. Ce petit pain rond se compose de f
 </div>
                     </div>
                     <!-- Controls -->
-                    <a class="left carousel-control no-background-image" href="#carousel-example-generic" data-slide="prev">
+                    <a class="left carousel-control no-background-image" href="#carousel-pain" data-slide="prev">
                         <span class="icon-prev"></span>
                     </a>
-                    <a class="right carousel-control no-background-image" href="#carousel-example-generic" data-slide="next">
+                    <a class="right carousel-control no-background-image" href="#carousel-pain" data-slide="next">
                         <span class="icon-next"></span>
                     </a>
                 </div>                    

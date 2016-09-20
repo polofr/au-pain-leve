@@ -5,7 +5,7 @@
         $phone = $_POST['phone'];
 		$message = $_POST['message'];
 		$from = 'Un utilisateur Web'; 
-		$to = 'paulhenri.carton@gmail.com'; 
+		$to = 'carton.martine@orange.fr'; 
 		$subject = 'Message ou commande envoyé(e) depuis le site internet';
 		
 		$body ="From: $name\n E-Mail: $email\n Téléphone: $phone\n Message:\n $message";
@@ -32,9 +32,9 @@
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
 	if ( mail($to, $subject, $body, $from) ) {
-		$result='<div class="alert alert-success">Merci! Nous vous recontactons au plus vite!</div>';
+		$result='<div class="alert alert-success">Merci, nous vous recontacterons au plus vite!</div>';
 	} else {
-		$result='<div class="alert alert-danger">Une erreur est survenue lors de l\'envoi. Veuillez réessayer plus tard. Merci!</div>';
+		$result='<div class="alert alert-danger">Une erreur est survenue lors de l\'envoi. Veuillez réessayer plus tard ou nous contacter par téléphone. Merci!</div>';
 	}
 }
 	}
