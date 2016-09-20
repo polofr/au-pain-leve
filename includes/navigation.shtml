@@ -1,8 +1,5 @@
-<!-- TODO What is Navigation, always write L'Art du Pain -->
-
 <body>
-    <div class="brand">L'Art du Pain</div>
-    <div class="address-bar">Boulangerie Pâtisserie</div>
+    <img class="img-responsive logo" src="./img/logo.png" alt="logo">
 
     <nav class="navbar navbar-default" role="navigation">
 
@@ -44,3 +41,11 @@
             </div>
         </div>
     </nav>
+
+    <div id="my-alert-box" class="alert alert-info collapse in" role="alert">
+       <button type="button" class="close" data-toggle="collapse" href="#my-alert-box">
+          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+       </button>
+       <p>Tél 03.20.31.32.73</p>
+    </div>
+
