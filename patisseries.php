@@ -1,4 +1,8 @@
-<?php include("includes/header.shtml"); ?>
+<?php include("includes/header_begin.shtml"); ?>
+    <meta name="description" content="nos spécialités du nord, nos créations originales, nos tartes et tartelettes">
+    <meta name="keywords" content="spécialités, originalité, création, tartelettes, pâtisserie artisanale">
+    <title>Nos spécialités du Nord, Nos créations pâtissières originales, nos tartes et tartelettes</title>
+<?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
     <div class="row">
@@ -15,21 +19,21 @@
             </div>
             <div class="clearfix"></div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive img-rounded" src="./img/tarte_au_sucre_picalia.jpg" alt="la tarte au sucre">
+                <img class="img-responsive img-rounded" src="./img/tarte_au_sucre.jpg" alt="la tarte au sucre">
                 <h3>La tarte au sucre                     
                 </h3>
                 <p>Typique du nord de la France, nos amis Québecois remplacent la vergeoise par du sirop d'érable. 
                 </p>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive img-rounded" src="./img/merveilleux_picalia.jpg" alt="le merveilleux au chocolat">
+                <img class="img-responsive img-rounded" src="./img/merveilleux.jpg" alt="le merveilleux au chocolat">
                 <h3>Le merveilleux
                 </h3>
                 <p>Ce petit gateau mi-belge mi-nordiste prend diverses appellations selon les régions : tête de nègre, boule choco voire même arlequin! 
                 </p>
             </div>
             <div class="col-sm-4 text-center">
-                <img class="img-responsive img-rounded" src="./img/moelleux_au_chocolat_2.jpg" alt="le moelleux au chocolat">
+                <img class="img-responsive img-rounded" src="./img/chocolat_fondant.jpg" alt="le moelleux au chocolat">
                 <h3>Le moelleux au chocolat
                 </h3>
                 <p>Du bon chocolat mais surtout un temps de cuisson parfait, c'est là que réside son secret.
@@ -52,12 +56,13 @@
             </div>
             <div class="col-md-4">
                 <p>À chaque évènement, nos pâtissiers ont l'occasion de laisser libre cours à leur inspiration. Ainsi galettes des rois, bûches de Noël et autres desserts, pour la Saint Valentin notamment, sortent de nos ateliers.</p>
-                <p>Aussi, pour vos évenements privés, nous réalisons sur mesure vos desserts, et ce à partir de 4 convives.  
+                <p>Aussi, pour vos évenements privés, nous réalisons sur mesure vos desserts, et ce dès 4 convives.  
                 </p>
             </div>
             <div class="col-md-4">
                 <img class="img-responsive img-border-right img-rounded" src="img/galettes_des_rois.jpg" alt="2 galettes des rois">
             </div>
+            <div class="clearfix"></div>
         </div>
     </div>
 
@@ -69,7 +74,8 @@
                     <strong>Nos tartes et tartelettes</strong>
                 </h2>
                 <hr>
-            </div>            
+            </div>  
+            <div class="clearfix"></div>          
             <div class="col-md-4">
                 <img class="img-responsive img-border-left img-rounded" src="./img/tarte_au_citron_meringuée.jpg" alt="tarte au citron meringuée">
             </div>

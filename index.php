@@ -1,4 +1,8 @@
-<?php include("includes/header.shtml"); ?>
+<?php include("includes/header_begin.shtml"); ?>
+    <meta name="description" content="boulangerie pâtisserie pour professionels, Lille">
+    <meta name="keywords" content="boulangerie, pâtisserie, artisanale, livraison pour entreprises, professionels, circuit court, Lille">
+    <title>boulangerie pâtisserie artisanale et livraison pour professionels à Lille</title>
+<?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
 
@@ -51,7 +55,7 @@
 			<div class="clearfix"></div>
         </div>
     </div>
-
+    
     <div class="row">
         <div class="box">
             <div class="col-lg-12 text-center">
@@ -86,7 +90,7 @@ Le canelé est lié à l'histoire de Bordeaux et du vin. En effet, dans la vinif
 </div>
 <div class="item <?php echo $timestamp == 4 ? 'active' : '' ?> lateral-padding">
     <p>
-Pour chaque situation, il existe un proverbe, ou une expression, qui fait allusion au pain : "Désirable comme un pain frais". "Bon comme du bon pain". "Etre à l'eau et au pain sec". "Pas de pain sans sueur". Une source de revenu est considérée comme un "gagne-pain". "Avoir du pain sur la planche". "Long comme un jour sans pain". Les ennuis sont le "pain quotidien". Un produit qui se vend bien "part comme des petits pains".
+Pour chaque situation, il existe un proverbe, ou une expression, qui fait allusion au pain : "Désirable comme un pain frais". "Bon comme du bon pain". "Être à l'eau et au pain sec". "Pas de pain sans sueur". Une source de revenu est considérée comme un "gagne-pain". "Avoir du pain sur la planche". "Long comme un jour sans pain". Les ennuis sont le "pain quotidien". Un produit qui se vend bien "part comme des petits pains".
     </p>
 </div>
 <div class="item <?php echo $timestamp == 5 ? 'active' : '' ?> lateral-padding">
@@ -201,7 +205,7 @@ Superstitions : le pain ne doit jamais être coupé des deux côtés à la fois,
 </div>
 <div class="item <?php echo $timestamp == 27 ? 'active' : '' ?> lateral-padding">
     <p>
-Pour chaque situation, il existe un proverbe, ou une expression, qui fait allusion au pain : "Il faut travailler pour gagner du blé", "Apporter de l'eau à son moulin", "Etre dans le pétrin", "Chacun doit mettre la main à la pâte", "Etre comme un coq en pâte"... 
+Pour chaque situation, il existe un proverbe, ou une expression, qui fait allusion au pain : "Il faut travailler pour gagner du blé", "Apporter de l'eau à son moulin", "Être dans le pétrin", "Chacun doit mettre la main à la pâte", "Être comme un coq en pâte"... 
     </p>
 </div>
 <div class="item <?php echo $timestamp == 28 ? 'active' : '' ?> lateral-padding">
@@ -251,7 +255,7 @@ Le blé est la céréale la plus produite au monde. La Chine et l'Union Europée
 </div>
 <div class="item <?php echo $timestamp == 37 ? 'active' : '' ?> lateral-padding">
     <p>
-Pour fabriquer les pains dits aux céréales, l'épeautre, l'avoine, le millet ou le sarrasin peuvent être utilisées. 
+Pour fabriquer les pains dits aux céréales, l'épeautre, l'avoine, le millet ou le sarrasin peuvent être utilisés. 
     </p>
 </div>
 <div class="item <?php echo $timestamp == 38 ? 'active' : '' ?> lateral-padding">
@@ -332,7 +336,7 @@ En cas de constipation, il est préférable de consommer du pain bis sans aller 
 </div>
 <div class="item <?php echo $timestamp == 54 ? 'active' : '' ?> lateral-padding">
     <p>
-Le pain est un subtil mélange de quatre saveurs : sucrée, salée, acide et amère. 
+Le pain est un subtil mélange de quatre saveurs : sucré, salé, acide et amer. 
     </p>
 </div>
 <div class="item <?php echo $timestamp == 55 ? 'active' : '' ?> lateral-padding">
@@ -342,7 +346,7 @@ Contrairement à ce que beaucoup de personnes ont pu croire ou croient encore, l
 </div>
 <div class="item <?php echo $timestamp == 56 ? 'active' : '' ?> lateral-padding">
     <p>
-Depuis 1996, une fête du pain a été instaurée également, par la Confédération Nationale des Boulangers Pâtissiers. Cette fête se tient le 16 mai, à la Saint-Honoré, patron des boulangers. Même si la France est connue et reconnue pour son bon pain, les Français sont devancés par leurs voisins allemands en termes de consommation de pain (25 kilos de plus). Avec 250 variétés de pains, l'Allemagne est le pays qui offre le plus large choix. 
+Depuis 1996, une fête du pain a été instaurée également, par la Confédération Nationale des Boulangers Pâtissiers. Cette fête se tient le 16 mai, à la Saint-Honoré, patron des boulangers. Même si la France est connue et reconnue pour son bon pain, les Français sont devancés par leurs voisins allemands quant à la consommation de pain (25 kilos de plus par an) . Avec 250 variétés de pains, l'Allemagne est le pays qui offre le plus large choix. 
     </p>
 </div>
 <div class="item <?php echo $timestamp == 57 ? 'active' : '' ?> lateral-padding">

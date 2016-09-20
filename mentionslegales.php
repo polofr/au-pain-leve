@@ -1,4 +1,8 @@
-<?php include("includes/header.shtml"); ?>
+<?php include("includes/header_begin.shtml"); ?>
+    <meta name="description" content="mentions légales de l'Art du Pain">
+    <meta name="keywords" content="mentions légales, l'Art du Pain, boulangerie pâtisserie artisanale">
+    <title>Mentions légales de l'Art du Pain</title>
+<?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
 

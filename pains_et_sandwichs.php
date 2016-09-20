@@ -1,4 +1,8 @@
-<?php include("includes/header.shtml"); ?>
+<?php include("includes/header_begin.shtml"); ?>
+    <meta name="description" content="nos quiches et sandwichs, nos pains et baguettes">
+    <meta name="keywords" content="tarte au Maroilles, quiches régionales, sandwichs, formule, boulangerie artisanale">
+    <title>Nos quiches et sandwichs, nos pains et baguettes</title>
+<?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
 

@@ -39,7 +39,11 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
 	}
 ?>
 
-<?php include("includes/header.shtml"); ?>
+<?php include("includes/header_begin.shtml"); ?>
+    <meta name="description" content="contact, email, commandes pour l'Art du Pain">
+    <meta name="keywords" content="contact, email, commandes, l'Art du Pain, boulangerie pâtisserie artisanale">
+    <title>Contacter ou commander</title>
+<?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
 
@@ -50,9 +54,9 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
                 <hr>
                     <h2 class="intro-text text-center"><strong>Nous Contacter</strong></h2>
                 <hr>          
-                <p>Professionel ou particulier, vous recherchez des prestations d'une boulangerie pâtisserie artisanale, nous mettons notre savoir-faire à votre service: nous livrons quotidiennement dans la métropole lilloise, avec une équipe et des installations en conséquence. 
+                <p>Professionnel ou particulier, vous recherchez des prestations d'une boulangerie pâtisserie artisanale, nous mettons notre savoir-faire à votre service: nous livrons quotidiennement dans la métropole lilloise, avec une équipe et des installations en conséquence. 
                 </p>
-                <p>Mariages, conférences, occasions particulières, vous voulez agrémenter vos évènements: nous sommes là pour vos petit-déjeuners, brunchs, buffets et autres cocktails, envoyez-nous votre commande en ligne, nous vous répondrons dans les plus brefs délais! 
+                <p>Mariages, conférences, occasions particulières, vous voulez agrémenter vos évènements : nous sommes là pour vos petits-déjeuners, brunchs, buffets et autres cocktails, envoyez-nous votre commande en ligne, nous vous répondrons dans les plus brefs délais! 
                 </p>
                 <form role="form" method="post" action="contact.php" >
                     <div class="row">
@@ -67,7 +71,7 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
                             <?php echo "<p class='text-danger'>$errEmail</p>";?>
                         </div>
                         <div class="form-group col-lg-4">
-                            <label for="phone">Votre télephone</label>
+                            <label for="phone">Votre téléphone</label>
                             <input id="phone" name="phone" type="tel" class="form-control" value="<?php echo htmlspecialchars($_POST['phone']); ?>">
                             <?php echo "<p class='text-danger'>$errPhone</p>";?>
                         </div>
@@ -85,7 +89,7 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
                         </div>
                     </div>
                 </form>
-                <?php echo $result; ?>	
+                <?php echo $result; ?>
             </div>
         </div>
     </div>

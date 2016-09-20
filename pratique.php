@@ -1,4 +1,8 @@
-<?php include("includes/header.shtml"); ?>
+<?php include("includes/header_begin.shtml"); ?>
+    <meta name="description" content="horaires, téléphone et adresse à Lille">
+    <meta name="keywords" content="boulangerie, pâtisserie, artisanale, horaires, téléphone, adresse, Lille">
+    <title>horaires, téléphone et adresse</title>
+<?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
 
@@ -17,27 +21,27 @@
                     <tbody>
                       <tr>
                         <td>Lundi</td>
-                        <td>7h - 19h</td>
+                        <td>7h - 15h</td>
                       </tr>
                       <tr>
                         <td>Mardi</td>
-                        <td>7h - 19h</td>
+                        <td>7h - 15h</td>
                       </tr>
                       <tr>
                         <td>Mercredi</td>
-                        <td>7h - 19h</td>
+                        <td>7h - 15h</td>
                       </tr>
                       <tr>                            
                         <td>Jeudi</td>
-                        <td>7h - 19h</td>
+                        <td>7h - 15h</td>
                       </tr>
                       <tr>                            
                         <td>Vendredi</td>
-                        <td>7h - 19h</td>
+                        <td>7h - 15h</td>
                       </tr>
                       <tr>                            
                         <td>Samedi</td>
-                        <td>7h - 15h</td>
+                        <td>Fermé</td>
                       </tr>
                       <tr>                            
                         <td>Dimanche</td>

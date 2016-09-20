@@ -1,4 +1,8 @@
-<?php include("includes/header.shtml"); ?>
+<?php include("includes/header_begin.shtml"); ?>
+    <meta name="description" content="buffets salés ou sucrés, livraison du traiteur">
+    <meta name="keywords" content="traiteur, buffet salé, buffet sucré, livraison, réunions, réceptions, conférences">
+    <title>Livraison traiteur salé ou sucré</title>
+<?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
 
@@ -32,8 +36,8 @@
                 <hr>
             </div>
             <div class="col-md-6">
-                <p>Un meeting au petit-déjeuner, une conférence dans l'après-midi, l'Art du Pain vous apporte mignardises et autres gourmandises jusque dans votre salle.</p>
-                <p>Nous espérons que nos macarons, nos mini-merveilleux et nos mini-tartelettes régaleront vos clients et collaborateurs.</p>
+                <p>Que ce soit pour un meeting au petit-déjeuner ou une conférence dans l'après-midi, l'Art du Pain vous apporte mignardises et autres gourmandises jusque dans votre salle.</p>
+                <p>Ainsi nos macarons, nos mini-merveilleux et nos mini-tartelettes régaleront vos clients et collaborateurs.</p>
             </div>
             <div class="col-md-6">
                 <img class="img-responsive img-border-left img-rounded" src="img/petits_fours_sucrés.jpg" alt="verrines sucrées pour cocktail">
@@ -42,6 +46,63 @@
         </div>
     </div>
 
-</div>
 
-<?php include("includes/footer.shtml"); ?>
+    <div class="row">
+        <div class="box plateaux-box">
+            <div class="col-sm-4">
+                <h3 class="text-center" >Cocktail Affaires</h3>
+                <ul>
+                    <li>7 pièces salées</li>
+                    <li>Toasts, verrines et briochées garnies</li>
+                    <li class="after-asterisk" >6,00€ HT par personne</li>
+                    <li>15 personnes minimum</li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h3 class="text-center" >Cocktail Saveur du Nord</h3>
+                <ul>
+                    <li>7 pièces salées</li>
+                    <li>Toasts, verrines et briochées garnies</li>                    
+                    <li>6 mignardises sucrées</li>
+                    <li class="after-asterisk" >12,00€ HT par personne</li>
+                    <li>8 personnes minimum</li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h3 class="text-center" >Cocktail Vitaminé</h3>
+                <ul>
+                    <li>7 pièces salées</li>
+                    <li>Toasts, verrines et brochettes garnies</li>                    
+                    <li>6 pièces sucrées</li>
+                    <li>Mignardises, verrines sucrées et brochettes de fruits</li>
+                    <li class="after-asterisk" >12,00€ HT par personne</li>
+                    <li>8 personnes minimum</li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 text-center">
+				<p class="fake-a">Prix valides à partir de 6 personnes jusqu'au 30/06/2016</p>
+			</div>
+			<div class="col-lg-4 text-center">
+				<p>
+					<a href="mentionslegales.php">Mentions Légales</a>
+				</p>
+			</div>
+			<div class="col-lg-4 text-center">
+				<p>
+					<a href="https://www.facebook.com/artdupainlille/?fref=ts">Rejoignez-nous sur Facebook!</a>
+				</p>				
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+

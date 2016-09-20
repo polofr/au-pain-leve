@@ -1097,12 +1097,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #FF1493;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: #FF1493;
   text-decoration: underline;
 }
 a:focus {
@@ -5028,7 +5028,7 @@ a.thumbnail.active {
   color: #333;
 }
 .alert {
-  padding: 15px;
+  padding: 10px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -5070,15 +5070,14 @@ a.thumbnail.active {
   color: #2b542c;
 }
 .alert-info {
-  color: #31708f;
-  background-color: #d9edf7;
-  border-color: #bce8f1;
+  background-color: #FF1493;
+  border-color: #FF00FF;
 }
 .alert-info hr {
-  border-top-color: #a6e1ec;
+  border-top-color: #FF00FF;
 }
 .alert-info .alert-link {
-  color: #245269;
+  color: #FF00FF;
 }
 .alert-warning {
   color: #8a6d3b;
