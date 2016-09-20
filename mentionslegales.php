@@ -41,7 +41,7 @@
                     </tr>
                     <tr>                            
                       <td>Numéro d'immatriculation au répertoire des métiers (RM)</td>
-                      <td>7h - 15h</td>
+                      <td></td>
                     </tr>
                     <tr>                            
                       <td>Numéro individuel d'identification fiscale </td>
