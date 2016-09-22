@@ -25,7 +25,7 @@
                 <p>Si c'est ce que vous recherchez, venez donc goûter nos produits!</p>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive img-border-left img-rounded" src="img/equipe_au_complet.jpg" alt="L'équipe de l'Art du Pain au complet">
+                <img class="img-responsive img-border-left img-rounded" src="img/equipe_au_complet_scaled.jpg" alt="L'équipe de l'Art du Pain au complet">
             </div>
 			<div class="clearfix"></div>
         </div>
@@ -41,7 +41,7 @@
                 <hr>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive img-border-left img-rounded" src="img/devant_la_machine_a_petrir.jpg" alt="Le pâtissier devant la machine à pétrir.">
+                <img class="img-responsive img-border-left img-rounded" src="img/devant_la_machine_a_petrir_scaled.jpg" alt="Le pâtissier devant la machine à pétrir.">
             </div>
             <div class="col-md-4">
                 <p>Notre équipe, ce sont avant tout des passionnés. Leur plus grand plaisir, vous surprendre avec une de leurs nouvelles créations.</p>
@@ -50,7 +50,7 @@
                 <p> D'ailleurs, pour accompagner nos clients, nous projettons très bientôt de lancer notre gamme de pâtisseries à partir d'ingrédients issus de l'agriculture biologique.</p>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive img-border-right img-rounded" src="img/fabrication_tarte_citron_meringue.jpg" alt="La fabrication de la tarte citron meringuée.">
+                <img class="img-responsive img-border-right img-rounded" src="img/fabrication_tarte_citron_meringue_scaled.jpg" alt="La fabrication de la tarte citron meringuée.">
             </div>
 			<div class="clearfix"></div>
         </div>

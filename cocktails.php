@@ -51,15 +51,6 @@
         <div class="box plateaux-box">
             <div class="col-sm-4">
                 <h3 class="text-center" >Cocktail Affaires</h3>
-            </div>
-            <div class="col-sm-4">
-                <h3 class="text-center" >Cocktail Saveur du Nord</h3>
-            </div>
-            <div class="col-sm-4">
-                <h3 class="text-center" >Cocktail Vitaminé</h3>
-            </div>
-            <div class="clearfix"></div>
-            <div class="col-sm-4">
                 <ul>
                     <li>7 pièces salées</li>
                     <li>Toasts, verrines et briochées garnies</li>
@@ -68,6 +59,7 @@
                 </ul>
             </div>
             <div class="col-sm-4">
+                <h3 class="text-center" >Cocktail Saveur du Nord</h3>
                 <ul>
                     <li>7 pièces salées</li>
                     <li>Toasts, verrines et briochées garnies</li>                    
@@ -77,6 +69,7 @@
                 </ul>
             </div>
             <div class="col-sm-4">
+                <h3 class="text-center" >Cocktail Vitaminé</h3>
                 <ul>
                     <li>7 pièces salées</li>
                     <li>Toasts, verrines et brochettes garnies</li>                    

@@ -16,7 +16,7 @@
                 <hr>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive img-border-left img-rounded" src="img/quiche.jpg" alt="Une quiche avec salade">
+                <img class="img-responsive img-border-left img-rounded" src="img/quiche_scaled.jpg" alt="Une quiche avec salade">
             </div>
             <div class="col-md-6">
                 <p>Toute la semaine, nous proposons des formules pour votre repas du midi. Au sandwich, ajoutez, si vous le désirez, une boisson et un délicieux dessert de l'Art du Pain !</p>
@@ -41,7 +41,7 @@
                 <p>Et bien sûr, n'oublions pas les baguettes!</p>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive img-border-right img-rounded" src="img/assortiment_de_pains.jpg" alt="Un assortiment de pains">
+                <img class="img-responsive img-border-right img-rounded" src="img/assortiment_de_pains_scaled.jpg" alt="Un assortiment de pains">
             </div>
             <div class="clearfix"></div>            
         </div>
