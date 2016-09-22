@@ -93,7 +93,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 text-center">
-				<p class="fake-a">Prix valides à partir de 6 personnes jusqu'au 30/06/2016</p>
+				<p class="fake-a">Prix valides jusqu'au 30/06/2016</p>
 			</div>
 			<div class="col-lg-4 text-center">
 				<p>

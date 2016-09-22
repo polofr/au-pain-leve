@@ -1,4 +1,13 @@
 <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <p><a href="./contact.php">Nous contacter au 03.20.31.32.73 !</a></p>
+            </div>
+        </div>
+    </div>
+
     <img class="img-responsive logo" src="./img/logo.png" alt="logo">
 
     <nav class="navbar navbar-default" role="navigation">
@@ -6,12 +15,12 @@
 		<div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Navigation</span>
+                    <span class="sr-only">Menu</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.php">L'Art du Pain</a>
+                <a class="navbar-brand" href="index.php">Menu</a>
             </div>
             
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -41,11 +50,4 @@
             </div>
         </div>
     </nav>
-
-    <div id="my-alert-box" class="alert alert-info collapse in" role="alert">
-       <button type="button" class="close" data-toggle="collapse" href="#my-alert-box">
-          <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-       </button>
-       <p>Tél 03.20.31.32.73</p>
-    </div>
 

@@ -13,12 +13,9 @@
             <div class="col-lg-12">
                 <hr>
                 <h2 class="intro-text text-center">
-                    <strong>L'équipe</strong>
+                    <strong>Notre métier</strong>
                 </h2>
                 <hr>
-            </div>
-            <div class="col-md-6">
-                <img class="img-responsive img-border-left img-rounded" src="img/equipe_au_complet.jpg" alt="L'équipe de l'Art du Pain au complet">
             </div>
             <div class="col-md-6">
                 <p>Si vous passez par la rue de Roubaix, à Lille, par l'odeur alléchée, vous serez tentés de vous arrêter dans la Boulangerie pâtisserie l'Art du Pain. Elle a fait sa réputation sur ses tartes au sucre, si bien qu'aujourd'hui, les quatre patissiers en fabriquent 1000 par semaine, et les revendent en BtoB en plus de l'activité boutique qui attire chaque jour 200 gourmands!
@@ -26,6 +23,9 @@
                 <p>En BtoB, l'Art du Pain joue la carte du circuit court : nous fournissons les enseignes de la région qui recherchent des produits frais et locaux. C'est la marque de fabrique de l'Art du Pain : nos pâtisseries sont produites sur place, nos recettes sont régionales.
                 </p>
                 <p>Si c'est ce que vous recherchez, venez donc goûter nos produits!</p>
+            </div>
+            <div class="col-md-6">
+                <img class="img-responsive img-border-left img-rounded" src="img/equipe_au_complet.jpg" alt="L'équipe de l'Art du Pain au complet">
             </div>
 			<div class="clearfix"></div>
         </div>
@@ -61,7 +61,7 @@
             <div class="col-lg-12 text-center">
                 <hr>
                     <h2 class="intro-text text-center">
-                        <strong>Le saviez-vous?</strong>
+                        <strong>Le saviez-vous ?</strong>
                     </h2>
                 <hr>
                 <div id="carousel-pain" class="carousel slide" data-interval="10000">
