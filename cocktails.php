@@ -50,7 +50,7 @@
     <div class="row">
         <div class="box plateaux-box">
             <div class="col-sm-4">
-                <h3 class="text-center" >Cocktail Affaires</h3>
+                <h3 class="text-center" ><a href="./contact.php">Cocktail Affaires</a></h3>
                 <ul>
                     <li>7 pièces salées</li>
                     <li>Toasts, verrines et briochées garnies</li>
@@ -59,7 +59,7 @@
                 </ul>
             </div>
             <div class="col-sm-4">
-                <h3 class="text-center" >Cocktail Saveur du Nord</h3>
+                <h3 class="text-center" ><a href="./contact.php">Cocktail Saveur du Nord</a></h3>
                 <ul>
                     <li>7 pièces salées</li>
                     <li>Toasts, verrines et briochées garnies</li>                    
@@ -69,7 +69,7 @@
                 </ul>
             </div>
             <div class="col-sm-4">
-                <h3 class="text-center" >Cocktail Vitaminé</h3>
+                <h3 class="text-center" ><a href="./contact.php">Cocktail Vitaminé</a></h3>
                 <ul>
                     <li>7 pièces salées</li>
                     <li>Toasts, verrines et brochettes garnies</li>                    
@@ -86,7 +86,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 text-center">
-				<p class="fake-a">Prix valides jusqu'au 30/06/2016</p>
+				<p class="fake-a">Prix valides jusqu'au 30/06/2017</p>
 			</div>
 			<div class="col-lg-4 text-center">
 				<p>
