@@ -2,24 +2,23 @@
 	if (isset($_POST["submit"])) {
 		$name = $_POST['name'];
 		$email = $_POST['email'];
-        $phone = $_POST['phone'];
+	        $phone = $_POST['phone'];
 		$message = $_POST['message'];
-		$from = 'Un utilisateur Web'; 
-		$to = 'carton.martine@orange.fr'; 
+                $to = 'carton.martine@orange.fr';
 		$subject = 'Message ou commande envoyé(e) depuis le site internet';
-		
+
 		$body ="From: $name\n E-Mail: $email\n Téléphone: $phone\n Message:\n $message";
 		// Check if name has been entered
 		if (!$_POST['name'] || $_POST['name'] == "" ) {
 			$errName = 'S\'il vous plait, entrez votre nom';
 		}
-		
+
 		// Check if email has been entered and is valid
 		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
 			$errEmail = 'S\'il vous plait, entrez une adresse email valide';
 		}
-		
-		// Check if phone has been entered 
+
+		// Check if phone has been entered
    		if (!$_POST['phone'] || !filter_var($_POST['phone'], FILTER_SANITIZE_NUMBER_INT)) {
 			$errPhone = 'S\'il vous plait, entrez un numéro de téléphone valide';
 		}
@@ -29,9 +28,13 @@
 			$errMessage = 'S\'il vous plait, entrez votre message';
 		}
 
+                $headers .= 'From:' .utf8_decode($name). ' <' .$email.'>' . "\r\n" .
+                    'Reply-To:'.$email. "\r\n" .
+                    "Content-Type: text/plain; charset=\"utf-8\"\r\n" ;
+
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
-	if ( mail($to, $subject, $body, $from) ) {
+	if ( mail($to, utf8_decode($subject), $body, $headers) ) {
 		$result='<div class="alert alert-success">Merci, nous vous recontacterons au plus vite!</div>';
 	} else {
 		$result='<div class="alert alert-danger">Une erreur est survenue lors de l\'envoi. Veuillez réessayer plus tard ou nous contacter par téléphone. Merci!</div>';
@@ -54,7 +57,7 @@ if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
             <div class="col-lg-12">
                 <hr>
                     <h2 class="intro-text text-center"><strong>Nous Contacter</strong></h2>
-                <hr>          
+                <hr>
                 <p>Professionnel ou particulier, vous recherchez des prestations d'une boulangerie pâtisserie artisanale, nous mettons notre savoir-faire à votre service: nous livrons quotidiennement dans la métropole lilloise, avec une équipe et des installations en conséquence. 
                 </p>
                 <p>Mariages, conférences, occasions particulières, vous voulez agrémenter vos évènements : nous sommes là pour vos petits-déjeuners, brunchs, buffets et autres cocktails, envoyez-nous votre commande en ligne, nous vous répondrons dans les plus brefs délais! 
