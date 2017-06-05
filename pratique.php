@@ -1,7 +1,7 @@
 <?php include("includes/header_begin.shtml"); ?>
     <meta name="description" content="horaires, téléphone et adresse à Lille">
     <meta name="keywords" content="boulangerie, pâtisserie, artisanale, horaires, téléphone, adresse, Lille">
-    <title>horaires, téléphone et adresse</title>
+    <title>Horaires, téléphone et adresse</title>
 <?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>

@@ -1,7 +1,7 @@
 <?php include("includes/header_begin.shtml"); ?>
     <meta name="description" content="boulangerie pâtisserie pour professionels, Lille">
     <meta name="keywords" content="boulangerie, pâtisserie, artisanale, livraison pour entreprises, professionels, circuit court, Lille">
-    <title>boulangerie pâtisserie artisanale et livraison pour professionels à Lille</title>
+    <title>Boulangerie pâtisserie artisanale et livraison pour professionels à Lille</title>
 <?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>

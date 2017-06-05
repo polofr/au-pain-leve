@@ -1,7 +1,7 @@
 <?php include("includes/header_begin.shtml"); ?>
     <meta name="description" content="viennoiseries artisanales et livraison de petits-déjeuners">
     <meta name="keywords" content="viennoiseries, livraison de petits-déjeuners">
-    <title>viennoiseries artisanales et livraison de petits-déjeuners</title>
+    <title>Viennoiseries artisanales et livraison de petits-déjeuners</title>
 <?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
