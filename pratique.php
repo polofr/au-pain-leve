@@ -7,7 +7,6 @@
 <?php include("includes/navigation.shtml"); ?>
 
 <div class="container">
-
     <div class="row">
         <div class="box">
             <div class="col-md-8 large-padding">
@@ -17,7 +16,7 @@
                 <h2 class="intro-text">
                     <strong>Horaires</strong>
                 </h2>     
-                  <table class="table">
+                <table class="table">
                     <tbody>
                       <tr>
                         <td>Lundi</td>
@@ -48,7 +47,7 @@
                         <td>Fermé</td>                            
                       </tr>
                     </tbody>
-                  </table>
+                </table>
                 <h2 class="intro-text">
                     <strong>Coordonnées</strong>
                 </h2>
@@ -61,13 +60,11 @@
                       </td>
                     </tr>
                   </tbody>
-                  </table>
-                </div>
+                </table>
             </div>
             <div class="clearfix"></div>
         </div>
     </div>
-
 </div>
 
 <?php include("includes/footer.shtml"); ?>
