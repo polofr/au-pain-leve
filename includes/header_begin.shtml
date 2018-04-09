@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Martine Carton">
-    <meta name="robots" content="index, follow" >
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Martine Carton">
+  <meta name="robots" content="index, follow" >
+  <meta name="language" content="fr">
+  <meta name="Geography" content="Lille, FR, 59000">
+  <meta name="geo.region" content="FR-59" />
+  <meta name="geo.placename" content="Lille" />
+  <meta name="geo.position" content="50.638005;3.068231" />
+  <meta name="ICBM" content="50.638005, 3.068231" />
 	<link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
