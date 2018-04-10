@@ -35,9 +35,9 @@
         // If there are no errors, send the email
         if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
             if ( mail($to, utf8_decode($subject), $body, $headers) ) {
-                $result='<div class="alert alert-success">Merci, nous vous recontacterons au plus vite!</div>';
+                $result = '<div class="alert alert-success">Merci, nous vous recontacterons au plus vite!</div>';
             } else {
-                $result='<div class="alert alert-danger">Une erreur est survenue lors de l\'envoi. Veuillez réessayer plus tard ou nous contacter par téléphone. Merci!</div>';
+                $result = '<div class="alert alert-danger">Une erreur est survenue lors de l\'envoi. Veuillez réessayer plus tard ou nous contacter par téléphone. Merci!</div>';
             }
         }
     }
@@ -58,9 +58,9 @@
                 <hr>
                     <h2 class="intro-text text-center"><strong>Nous Contacter</strong></h2>
                 <hr>
-                <p>Professionnel ou particulier, vous recherchez des prestations d'une boulangerie pâtisserie artisanale, nous mettons notre savoir-faire à votre service: nous livrons quotidiennement dans la métropole lilloise, avec une équipe et des installations en conséquence. 
+                <p class="text-justify">Professionnel ou particulier, vous recherchez des prestations d'une boulangerie pâtisserie artisanale, nous mettons notre savoir-faire à votre service: nous livrons quotidiennement dans la métropole lilloise, avec une équipe et des installations en conséquence. 
                 </p>
-                <p>Mariages, conférences, occasions particulières, vous voulez agrémenter vos évènements : nous sommes là pour vos petits-déjeuners, brunchs, buffets et autres cocktails, envoyez-nous votre commande en ligne, nous vous répondrons dans les plus brefs délais! 
+                <p class="text-justify">Mariages, conférences, occasions particulières, vous voulez agrémenter vos évènements : nous sommes là pour vos petits-déjeuners, brunchs, buffets et autres cocktails, envoyez-nous votre commande en ligne, nous vous répondrons dans les plus brefs délais! 
                 </p>
                 <form role="form" method="post" action="contact.php" >
                     <div class="row">
