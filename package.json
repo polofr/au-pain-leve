@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "gulp": "gulp default"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-rename": "^1.2.2"
+    }
+}
