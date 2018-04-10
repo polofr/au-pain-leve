@@ -18,7 +18,7 @@
         <div class="col-md-6">
             <img class="img-responsive img-border-left img-rounded" src="img/quiche_scaled.jpg" alt="Une quiche avec salade">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text-justify">
             <p>Toute la semaine, nous proposons des formules pour votre repas du midi. Au sandwich, ajoutez, si vous le désirez, une boisson et un délicieux dessert de l'Art du Pain !</p>
             <p>Décidez-vous pour le sandwich poulet curry, jambon cru, végétarien, saumon ou encore filet américain. Pour varier les plaisirs, osez le croque-monsieur, la tarte au Maroilles ou nos quiches régionales.</p>
         </div>
@@ -35,7 +35,7 @@
             </h2>
             <hr>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text-justify">
             <p>Faites votre choix parmi le boulot, le pain de campagne, le pavé tradition, le pain complet.</p>
             <p>Si vous aimez les graines, laissez-vous tenter par le pain 12 céréales ou encore ceux au seigle ou aux noix.</p>
             <p>Et bien sûr, n'oublions pas les baguettes!</p>

@@ -17,7 +17,7 @@
                 </h2>
                 <hr>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 text-justify">
                 <p>Si vous passez par la rue de Roubaix, à Lille, par l'odeur alléchée, vous serez tentés de vous arrêter dans la Boulangerie pâtisserie l'Art du Pain. Elle a fait sa réputation sur ses tartes au sucre, si bien qu'aujourd'hui, les quatre patissiers en fabriquent 1000 par semaine, et les revendent en BtoB en plus de l'activité boutique qui attire chaque jour 200 gourmands!
                 </p>
                 <p>En BtoB, l'Art du Pain joue la carte du circuit court : nous fournissons les enseignes de la région qui recherchent des produits frais et locaux. C'est la marque de fabrique de l'Art du Pain : nos pâtisseries sont produites sur place, nos recettes sont régionales.
@@ -43,7 +43,7 @@
             <div class="col-md-4">
                 <img class="img-responsive img-border-left img-rounded" src="img/devant_la_machine_a_petrir_scaled.jpg" alt="Le pâtissier devant la machine à pétrir.">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 text-justify">
                 <p>Notre équipe, ce sont avant tout des passionnés. Leur plus grand plaisir, vous surprendre avec une de leurs nouvelles créations.</p>
                 <p>Le secret de l'Art du Pain, un esprit d'équipe, une grande dose de bonne humeur et une envie de partager avec vous notre métier!</p>
                 <p>Résultat : nous sommes réactifs à vos demandes et notre ambition est de satisfaire vos attentes au plus vite. Tous les jours, nous sommes fiers de vous régaler!</p>

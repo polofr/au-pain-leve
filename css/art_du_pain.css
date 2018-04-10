@@ -34,6 +34,7 @@ p {
 hr {
     max-width: 400px;
     border-color: #999999;
+    padding-bottom: 10px;
 }
 
 .brand,

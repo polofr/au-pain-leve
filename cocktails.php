@@ -18,8 +18,8 @@
         <div class="col-md-6">
             <img class="img-responsive img-border-left img-rounded" src="img/verrines_pour_cocktail.jpg" alt="Verrines pour cocktail">
         </div>
-        <div class="col-md-6">
-            <p>Pour vos réunions ou réceptions, faites-vous livrer nos plateaux apéritifs : verrines, mini-sandwichs, navettes et canapés.</p>
+        <div class="col-md-6 text-justify">
+            <p>Pour vos réunions ou réceptions, profitez du service traiteur et faites-vous livrer nos plateaux apéritifs : verrines, mini-sandwichs, navettes et canapés.</p>
             <p>Si vous êtes plus nombreux, commandez des pains-surprises campagnards ou scandinaves!</p>
         </div>
         <div class="clearfix"></div>            
@@ -35,8 +35,8 @@
             </h2>
             <hr>
         </div>
-        <div class="col-md-6">
-            <p>Que ce soit pour un meeting au petit-déjeuner ou une conférence dans l'après-midi, l'Art du Pain vous apporte mignardises et autres gourmandises jusque dans votre salle.</p>
+        <div class="col-md-6 text-justify">
+            <p>Besoin d'un traiteur? Que ce soit pour un meeting au petit-déjeuner ou une conférence dans l'après-midi, l'Art du Pain vous apporte mignardises et autres gourmandises jusque dans votre salle.</p>
             <p>Ainsi nos macarons, nos mini-merveilleux et nos mini-tartelettes régaleront vos clients et collaborateurs.</p>
         </div>
         <div class="col-md-6">

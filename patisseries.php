@@ -79,7 +79,7 @@
             <div class="col-md-4">
                 <img class="img-responsive img-border-left img-rounded" src="img/gateau_au_chocolat_anniversaire_scaled.jpg" alt="gâteau au chocolat pour un anniversaire">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 text-justify">
                 <p>À chaque évènement, nos pâtissiers ont l'occasion de laisser libre cours à leur inspiration. Ainsi galettes des rois, bûches de Noël et autres desserts, pour la Saint Valentin notamment, sortent de nos ateliers.</p>
                 <p>Aussi, pour vos évenements privés, nous réalisons sur mesure vos desserts, et ce dès 4 convives.  
                 </p>

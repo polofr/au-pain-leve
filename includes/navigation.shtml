@@ -29,8 +29,8 @@
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nos produits</a>
             <ul class="dropdown-menu">
               <li><a href="patisseries.php">Pâtisserie</a></li>
-              <li><a href="petit_dejeuner.php">Petit déjeuner</a></li>
-              <li><a href="cocktails.php">Cocktails</a></li>
+              <li><a href="petit_dejeuner.php">Traiteur Petit déjeuner</a></li>
+              <li><a href="cocktails.php">Traiteur Cocktails</a></li>
               <li><a href="pains_et_sandwichs.php">Pains et Sandwichs</a></li>
             </ul>
           </li>
