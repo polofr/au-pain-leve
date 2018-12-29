@@ -78,6 +78,18 @@ hr {
     border-color: #999999;
 }
 
+@media all and (min-width: 520px) {
+    .not-on-big-screen {
+        display: none !important;
+    }
+}
+
+@media all and (max-width: 520px) {
+    .not-on-small-screen {
+        display: none !important;
+    }
+}
+
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;

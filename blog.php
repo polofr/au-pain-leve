@@ -17,8 +17,16 @@
 }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<div class="center-block text-center" style="padding:5px; border-radius:5px; background-color:white; width: 510px">
+<div class="not-on-small-screen center-block text-center" style="padding:5px; border-radius:5px; background-color:white; width: 510px;">
   <div class="fb-page" data-href="https://www.facebook.com/artdupainlille/" data-tabs="timeline" data-width="500px" data-height="700px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
+    <blockquote cite="https://www.facebook.com/artdupainlille/" class="fb-xfbml-parse-ignore">
+      <a href="https://www.facebook.com/artdupainlille/">L&#039;ART DU PAIN</a>
+    </blockquote>
+  </div>
+</div>
+
+<div class="not-on-big-screen center-block text-center" style="padding:5px; border-radius:5px; background-color:white">
+  <div class="fb-page" data-href="https://www.facebook.com/artdupainlille/" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false">
     <blockquote cite="https://www.facebook.com/artdupainlille/" class="fb-xfbml-parse-ignore">
       <a href="https://www.facebook.com/artdupainlille/">L&#039;ART DU PAIN</a>
     </blockquote>
