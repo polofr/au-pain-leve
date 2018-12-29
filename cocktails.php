@@ -40,7 +40,7 @@
             <p>Ainsi nos macarons, nos mini-merveilleux et nos mini-tartelettes régaleront vos clients et collaborateurs.</p>
         </div>
         <div class="col-md-6">
-            <img class="img-responsive img-border-left img-rounded" src="img/petits_fours_sucrés.jpg" alt="verrines sucrées pour cocktail">
+            <img class="img-responsive img-border-left img-rounded" src="img/petits_fours_sucrés.jpg" alt="Verrines sucrées pour cocktail">
         </div>
         <div class="clearfix"></div>
     </div>
