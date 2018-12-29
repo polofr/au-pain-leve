@@ -19,7 +19,7 @@
             <img class="img-responsive img-border-left img-rounded" src="img/quiche_scaled.jpg" alt="Une quiche avec salade">
         </div>
         <div class="col-md-6 text-justify">
-            <p>Toute la semaine, nous proposons des formules pour votre repas du midi. Au sandwich, ajoutez, si vous le désirez, une boisson et un délicieux dessert de l'Art du Pain !</p>
+            <p>Toute la semaine, nous proposons des formules pour votre repas du midi. Au sandwich, ajoutez, si vous le désirez, une boisson et un délicieux dessert de l'Art du Pain!</p>
             <p>Décidez-vous pour le sandwich poulet curry, jambon cru, végétarien, saumon ou encore filet américain. Pour varier les plaisirs, osez le croque-monsieur, la tarte au Maroilles ou nos quiches régionales.</p>
         </div>
         <div class="clearfix"></div>            

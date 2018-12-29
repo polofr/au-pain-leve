@@ -14,7 +14,7 @@
             </h2>
             <hr>
             <p class="text-center">
-                Notre équipe de pâtissiers est à la baguette pour vous offrir ces classiques de notre région !
+                Notre équipe de pâtissiers est à la baguette pour vous offrir ces classiques de notre région!
             </p>
             <div class="clearfix"></div>
             <div class="col-sm-4 text-center">
@@ -51,8 +51,8 @@
                 <strong>Nos tartes et tartelettes</strong>
             </h2>
             <hr>
-            <p class="text-center">À chacun son envie ! Vous pouvez panacher vos tartelettes pour des desserts qui plaisent à toute la famille.</p>
-            <p class="text-center">Nos pâtissiers imaginent pour vous des tartes et tartelettes réalisées avec les fruits de saison. Essayez la rhubarbe, les framboises, les fraises, les poires chocolat, les pommes ou encore les tartes meringuées au citron !</p>
+            <p class="text-center">À chacun son envie! Vous pouvez panacher vos tartelettes pour des desserts qui plaisent à toute la famille.</p>
+            <p class="text-center">Nos pâtissiers imaginent pour vous des tartes et tartelettes réalisées avec les fruits de saison. Essayez la rhubarbe, les framboises, les fraises, les poires chocolat, les pommes ou encore les tartes meringuées au citron!</p>
             <div class="clearfix"></div>          
             <div class="col-md-4">
                 <img class="img-responsive img-border-right img-rounded" src="./img/tartelette_a_la_rhubarbe.jpg" alt="tartelette à la rhubarbe">
@@ -101,7 +101,7 @@
             </h2>
             <hr>
             <p class="text-center">Vous avez la nostalgie des gâteaux de votre enfance : retrouvez leur saveur dans nos flans, mille-feuilles et gateaux marbrés.</p>
-            <p class="text-center">Si, au contraire, vous avez envie d'une touche américaine : essayez nos muffins, crumbles et cookies !</p>
+            <p class="text-center">Si, au contraire, vous avez envie d'une touche américaine : essayez nos muffins, crumbles et cookies!</p>
             <div class="clearfix"></div>          
             <div class="col-md-4">
                 <img class="img-responsive img-border-left img-rounded" src="./img/muffin_aux_fruits_rouges.jpg" alt="muffin aux fruits rouges">

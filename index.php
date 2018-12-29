@@ -195,7 +195,7 @@
                         </div>
                         <div class="item <?php echo $timestamp == 25 ? 'active' : '' ?> lateral-padding">
                             <p>
-                        Aujourd'hui, la boulangerie est un des éléments essentiels de l'aménagement des lieux de vie des Français, originalité de leur civilisation. En campagne la disparition d'un boulanger peut faire disparaître l'âme d'un bourg. Le boulanger donne de la satisfaction, du plaisir et une occasion de relations sociales autant qu'il nous vend du pain. Les municipalités viennent d'ailleurs à subventionner certains boulangers afin qu'ils ne quittent pas le village et que celui-ci continue à vivre. Certains déclareraient même les boulangeries d'utilité publique !
+                        Aujourd'hui, la boulangerie est un des éléments essentiels de l'aménagement des lieux de vie des Français, originalité de leur civilisation. En campagne la disparition d'un boulanger peut faire disparaître l'âme d'un bourg. Le boulanger donne de la satisfaction, du plaisir et une occasion de relations sociales autant qu'il nous vend du pain. Les municipalités viennent d'ailleurs à subventionner certains boulangers afin qu'ils ne quittent pas le village et que celui-ci continue à vivre. Certains déclareraient même les boulangeries d'utilité publique!
                             </p>
                         </div>
                         <div class="item <?php echo $timestamp == 26 ? 'active' : '' ?> lateral-padding">

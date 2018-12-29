@@ -67,7 +67,7 @@
                 <img class="img-responsive img-rounded" src="./img/assortiment_viennoiseries.jpg" alt="Un assortiment de viennoiseries">
             </div>
             <div class="col-md-6 text-justify">
-                <p>L'Art du Pain réalise une vaste gamme de viennoiseries : du plus classique au plus original !</p>
+                <p>L'Art du Pain réalise une vaste gamme de viennoiseries : du plus classique au plus original!</p>
                 <p>Croissants, pains au chocolat, chouquettes, torsades, chaussons aux pommes, escargots aux raisins ou encore oranais à l'abricot.</p>
             </div>
             <div class="clearfix"></div>
