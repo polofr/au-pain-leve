@@ -41,7 +41,7 @@
                 <hr>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive img-border-left img-rounded" src="img/devant_la_machine_a_petrir_scaled.jpg" alt="Le pâtissier devant la machine à pétrir.">
+                <img class="img-responsive img-border-left img-rounded" src="img/devant_les_tartes_au_citron.jpg" alt="Le pâtissier devant les tartes au citron.">
             </div>
             <div class="col-md-4 text-justify">
                 <p>Notre équipe, ce sont avant tout des passionnés. Leur plus grand plaisir, vous surprendre avec une de leurs nouvelles créations.</p>
