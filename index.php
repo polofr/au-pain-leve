@@ -41,7 +41,7 @@
                 <hr>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive img-border-left img-rounded" src="img/devant_les_tartes_au_citron.jpg" alt="Le pâtissier devant les tartes au citron.">
+                <img class="img-responsive img-border-right img-rounded" src="img/fabrication_tarte_citron_meringue_scaled.jpg" alt="La fabrication de la tarte citron meringuée.">
             </div>
             <div class="col-md-4 text-justify">
                 <p>Notre équipe, ce sont avant tout des passionnés. Leur plus grand plaisir, vous surprendre avec une de leurs nouvelles créations.</p>
@@ -50,7 +50,7 @@
                 <p> D'ailleurs, pour accompagner nos clients, nous projettons très bientôt de lancer notre gamme de pâtisseries à partir d'ingrédients issus de l'agriculture biologique.</p>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive img-border-right img-rounded" src="img/fabrication_tarte_citron_meringue_scaled.jpg" alt="La fabrication de la tarte citron meringuée.">
+                <img class="img-responsive img-border-left img-rounded" src="img/devant_les_tartes_au_citron.jpg" alt="Le pâtissier devant les tartes au citron.">
             </div>
             <div class="clearfix"></div>
         </div>
