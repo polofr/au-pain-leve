@@ -1,7 +1,7 @@
 <?php include("includes/header_begin.shtml"); ?>
-    <meta name="description" content="mentions légales de l'Art du Pain">
-    <meta name="keywords" content="mentions légales, l'Art du Pain, boulangerie pâtisserie artisanale">
-    <title>Mentions légales de l'Art du Pain</title>
+    <meta name="description" content="mentions légales d'Au PainLevé">
+    <meta name="keywords" content="mentions légales, Au PainLevé, boulangerie pâtisserie artisanale">
+    <title>Mentions légales d'Au PainLevé</title>
 <?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
@@ -17,11 +17,11 @@
                   <tbody>
                     <tr>
                       <td>Raison sociale</td>
-                      <td>SAS ATI L'Art du Pain</td>
+                      <td>SAS ATI</td>
                     </tr>
                     <tr>
                       <td>Adresse</td>
-                      <td>22 rue de Roubaix - 59000 Lille</td>
+                      <td>2 bd de Belfort - 59000 Lille</td>
                     </tr>
                     <tr>                            
                       <td>Montant du capital social</td>

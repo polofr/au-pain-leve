@@ -36,7 +36,7 @@
             <hr>
         </div>
         <div class="col-md-6 text-justify">
-            <p>Besoin d'un traiteur? Que ce soit pour un meeting au petit-déjeuner ou une conférence dans l'après-midi, l'Art du Pain vous apporte mignardises et autres gourmandises jusque dans votre salle.</p>
+            <p>Besoin d'un traiteur? Que ce soit pour un meeting au petit-déjeuner ou une conférence dans l'après-midi, Au PainLevé vous apporte mignardises et autres gourmandises jusque dans votre salle.</p>
             <p>Ainsi nos macarons, nos mini-merveilleux et nos mini-tartelettes régaleront vos clients et collaborateurs.</p>
         </div>
         <div class="col-md-6">

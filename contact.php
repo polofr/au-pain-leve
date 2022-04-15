@@ -49,8 +49,8 @@
 ?>
 
 <?php include("includes/header_begin.shtml"); ?>
-    <meta name="description" content="contact, email, commandes pour l'Art du Pain">
-    <meta name="keywords" content="contact, email, commandes, l'Art du Pain, boulangerie pâtisserie artisanale">
+    <meta name="description" content="contact, email, commandes Au PainLevé">
+    <meta name="keywords" content="contact, email, commandes, Au PainLevé, boulangerie pâtisserie artisanale">
     <title>Contacter ou commander</title>
 <?php include("includes/header_end.shtml"); ?>
 

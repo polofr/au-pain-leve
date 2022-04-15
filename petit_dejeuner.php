@@ -19,7 +19,7 @@
                 <img class="img-responsive img-rounded" src="./img/buffet_petit_dejeuner_scaled.jpg" alt="buffet pour le petit déjeuner">
             </div>
             <div class="col-md-6 text-justify">
-                <p>Vous voulez offrir un service traiteur pour un petit-déjeuner de qualité lors d'une réunion, d'une conférence : l'Art du Pain vous livre viennoiseries et autres gourmandises jusque dans votre salle.</p>
+                <p>Vous voulez offrir un service traiteur pour un petit-déjeuner de qualité lors d'une réunion, d'une conférence : Au PainLevé vous livre viennoiseries et autres gourmandises jusque dans votre salle.</p>
                 <p>Faites votre choix parmi notre gamme de viennoiseries et mignardises artisanales! Nous apportons aussi café, thé et jus de fruits.</p>
             </div>
             <div class="clearfix"></div>
@@ -67,7 +67,7 @@
                 <img class="img-responsive img-rounded" src="./img/assortiment_viennoiseries.jpg" alt="Un assortiment de viennoiseries">
             </div>
             <div class="col-md-6 text-justify">
-                <p>L'Art du Pain réalise une vaste gamme de viennoiseries : du plus classique au plus original!</p>
+                <p>Au PainLevé réalise une vaste gamme de viennoiseries : du plus classique au plus original!</p>
                 <p>Croissants, pains au chocolat, chouquettes, torsades, chaussons aux pommes, escargots aux raisins ou encore oranais à l'abricot.</p>
             </div>
             <div class="clearfix"></div>
