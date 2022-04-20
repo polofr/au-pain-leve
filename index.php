@@ -18,7 +18,7 @@
                 <hr>
             </div>
             <div class="col-md-6 text-justify">
-                <p>Si vous passez par le Boulevard de Belfort, à Lille, par l'odeur alléchée, vous serez tentés de vous arrêter dans la Boulangerie pâtisserie Au PainLevé. Elle a fait sa réputation sur ses tartes au sucre, si bien qu'aujourd'hui, les quatre patissiers en fabriquent 1000 par semaine, et les revendent en BtoB en plus de l'activité boutique qui attire chaque jour 200 gourmands!
+                <p>Si vous passez au 2 boulevard de Belfort, à Lille, vous serez tentés de vous arrêter dans la Boulangerie pâtisserie Au PainLevé. Elle a fait sa réputation sur ses tartes au sucre, si bien qu'aujourd'hui, les quatre patissiers en fabriquent 1000 par semaine, et les revendent en BtoB en plus de l'activité boutique qui attire chaque jour 200 gourmands!
                 </p>
                 <p>En BtoB, Au PainLevé joue la carte du circuit court : nous fournissons les enseignes de la région qui recherchent des produits frais et locaux. C'est la marque de fabrique d'Au PainLevé : nos pâtisseries sont produites sur place, nos recettes sont régionales.
                 </p>

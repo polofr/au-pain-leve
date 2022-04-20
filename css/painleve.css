@@ -187,6 +187,7 @@ footer p {
 .logo {
     margin-left: auto; 
     margin-right: auto;
+    width: 30%;
 }
 
 #my-alert-box {

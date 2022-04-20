@@ -57,7 +57,7 @@
                     <tr>
                       <td>2, bd de Belfort, Lille
                         <br>03.20.31.32.73
-                        <br><a href="mailto:artdupain@orange.fr">artdupain@orange.fr</a>
+                        <br><a href="mailto:contact@painleve.fr">contact@painleve.fr</a>
                       </td>
                     </tr>
                   </tbody>

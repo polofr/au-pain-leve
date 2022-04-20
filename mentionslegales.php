@@ -29,7 +29,7 @@
                     </tr>
                     <tr>                            
                       <td>Email</td>
-                      <td>artdupain@orange.fr</td>
+                      <td>contact@painleve.fr</td>
                     </tr>
                     <tr>                            
                       <td>Numéro de téléphone</td>
