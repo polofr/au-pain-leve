@@ -21,27 +21,27 @@
                     <tbody>
                       <tr>
                         <td>Lundi</td>
-                        <td>7h - 15h</td>
+                        <td>7h - 19h</td>
                       </tr>
                       <tr>
                         <td>Mardi</td>
-                        <td>7h - 15h</td>
+                        <td>7h - 19h</td>
                       </tr>
                       <tr>
                         <td>Mercredi</td>
-                        <td>7h - 15h</td>
+                        <td>7h - 19h</td>
                       </tr>
                       <tr>                            
                         <td>Jeudi</td>
-                        <td>7h - 15h</td>
+                        <td>7h - 19h</td>
                       </tr>
                       <tr>                            
                         <td>Vendredi</td>
-                        <td>7h - 15h</td>
+                        <td>7h - 19h</td>
                       </tr>
                       <tr>                            
                         <td>Samedi</td>
-                        <td>Fermé</td>
+                        <td>7h - 13h30</td>
                       </tr>
                       <tr>                            
                         <td>Dimanche</td>
