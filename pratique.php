@@ -56,7 +56,7 @@
                   <tbody>
                     <tr>
                       <td>2, bd de Belfort, Lille
-                        <br>03.20.31.32.73
+                        <br>06.02.62.14.83
                         <br><a href="mailto:contact@painleve.fr">contact@painleve.fr</a>
                       </td>
                     </tr>
