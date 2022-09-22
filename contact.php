@@ -9,7 +9,8 @@
         $email = $_POST['email'];
         $phone = $_POST['phone'];
         $message = $_POST['message'];
-        $to = 'carton.martine@orange.fr';
+        $captchaResponse = $_POST['g-recaptcha-response'];
+        $to = 'paulhenri.carton@orange.fr';
         $subject = 'Message ou commande envoyé(e) depuis le site internet';
 
         $body ="From: $name\n E-Mail: $email\n Téléphone: $phone\n Message:\n $message";
@@ -32,7 +33,17 @@
         if (!$_POST['message'] || !strlen(trim($_POST['message'])) ) {
             $errMessage = 'S\'il vous plait, entrez votre message';
         }
-
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, array(secret  => "", response => $captchaResponse));
+        $captchaResult = curl_exec($ch);
+        curl_close($ch);
+        $captchaResult = json_decode($captchaResult);
+        if (!$captchaResult->success) {
+            $errMessage = 'S\'il vous plait, validez le captcha';
+        }
         $headers .= 'From:' .utf8_decode($name). ' <' .$email.'>' . '\r\n' .
             'Reply-To:'.$email. '\r\n' .
             'Content-Type: text/plain; charset="utf-8"\r\n';
@@ -52,6 +63,7 @@
     <meta name="description" content="contact, email, commandes Au PainLevé">
     <meta name="keywords" content="contact, email, commandes, Au PainLevé, boulangerie pâtisserie artisanale">
     <title>Contacter ou commander</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <?php include("includes/header_end.shtml"); ?>
 
 <?php include("includes/navigation.shtml"); ?>
@@ -92,7 +104,8 @@
                             </textarea>
                             <?php echo "<p class='text-danger'>$errMessage</p>";?>
                         </div>
-                        <div class="form-group col-lg-12">
+                        <div class="g-recaptcha form-group col-lg-10" data-sitekey="6LcwhB8iAAAAAHb13XIGAZRvTyrHeuoN9-GVrtRi"></div>
+                        <div class="form-group col-lg-2">
                             <input type="hidden" name="save">
                             <button id="submit" name="submit" type="submit" value="Send" class="btn btn-default">Envoyer</button>
                         </div>
@@ -103,5 +116,5 @@
         </div>
     </div>
 </div>
-    
+
 <?php include("includes/footer.shtml"); ?>
