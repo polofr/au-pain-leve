@@ -10,10 +10,10 @@
         $phone = $_POST['phone'];
         $message = $_POST['message'];
         $captchaResponse = $_POST['g-recaptcha-response'];
-        $to = 'paulhenri.carton@gmail.com';
+        $to = 'artdupain@orange.fr';
         $subject = 'Message ou commande envoyé(e) depuis le site internet';
 
-        $body ="From: $name\n E-Mail: $email\n Téléphone: $phone\n Message:\n $message";
+        $body ="From: $name\nE-Mail: $email\nTéléphone: $phone\nMessage:\n$message";
         // Check if name has been entered
         if (!$_POST['name'] || $_POST['name'] == "" ) {
             $errName = 'S\'il vous plait, entrez votre nom';
@@ -37,18 +37,14 @@
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify");
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_POSTFIELDS, array(secret  => "", response => $captchaResponse));
+        curl_setopt($ch, CURLOPT_POSTFIELDS, array(secret  => "TODO", response => $captchaResponse));
         $captchaResult = curl_exec($ch);
         curl_close($ch);
         $captchaResult = json_decode($captchaResult);
         if (!$captchaResult->success) {
             $errMessage = 'S\'il vous plait, validez le captcha';
         }
-        $headers .= 'From:' .utf8_decode($name). ' <' .$email.'>' . '\r\n' .
-            'Reply-To:'.$email. '\r\n' .
-            'Content-Type: text/plain; charset="utf-8"\r\n';
-
-        // If there are no errors, send the email
+        $headers = "From: Website <$email>\r\nReply-To: $email";
         if (!$errName && !$errEmail && !$errPhone && !$errMessage) {
             if ( mail($to, utf8_decode($subject), $body, $headers) ) {
                 $result = '<div class="alert alert-success">Merci, nous vous recontacterons au plus vite!</div>';
