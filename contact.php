@@ -10,7 +10,7 @@
         $phone = $_POST['phone'];
         $message = $_POST['message'];
         $captchaResponse = $_POST['g-recaptcha-response'];
-        $to = 'paulhenri.carton@orange.fr';
+        $to = 'paulhenri.carton@gmail.com';
         $subject = 'Message ou commande envoyé(e) depuis le site internet';
 
         $body ="From: $name\n E-Mail: $email\n Téléphone: $phone\n Message:\n $message";
@@ -99,9 +99,7 @@
                         <div class="clearfix"></div>
                         <div class="form-group col-lg-12">
                             <label for="message">Votre demande</label>
-                            <textarea placeholder="Détaillez votre demande" name="message" class="form-control" rows="6">
-                                <?php echo htmlspecialchars($_POST['message']); ?>
-                            </textarea>
+                            <textarea placeholder="Détaillez votre demande" name="message" class="form-control" rows="6"><?php echo trim(htmlspecialchars($_POST['message'])); ?></textarea>
                             <?php echo "<p class='text-danger'>$errMessage</p>";?>
                         </div>
                         <div class="g-recaptcha form-group col-lg-10" data-sitekey="6LcwhB8iAAAAAHb13XIGAZRvTyrHeuoN9-GVrtRi"></div>
