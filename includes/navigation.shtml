@@ -1,8 +1,20 @@
 <body>
   <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+            <a href="https://www.europa.eu">
+              <img class="img-responsive" style="float: right" src="./img/subventions/ue_min.jpg" alt="L’Europe">
+            </a>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+            <a href="https://europe-en-hautsdefrance.eu/programme-de-developpement-rural-feader-nord-de-calais-2014-2020/">
+              <img class="img-responsive" src="./img/subventions/ue_avec_vecto_min.jpg" alt="L’Europe s’engage en Hauts-de-France avec le FEADER">
+            </a>
+          </div>
+      </div>
       <div class="row">
-          <div class="col-lg-12 text-center">
-              <p><a href="./contact.php">Nous contacter au 06.02.62.14.83 !</a></p>
+          <div class="col-12 text-center">
+            <a href="./contact.php"><p><a href="./contact.php"><b>Nous contacter au 06.02.62.14.83 !</b></a></p></a>
           </div>
       </div>
   </div>
