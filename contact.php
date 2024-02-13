@@ -10,7 +10,7 @@
         $phone = $_POST['phone'];
         $message = $_POST['message'];
         $captchaResponse = $_POST['g-recaptcha-response'];
-        $to = 'artdupain@orange.fr';
+        $to = 'contact@painleve.fr';
         $subject = 'Message ou commande envoyé(e) depuis le site internet';
 
         $body ="From: $name\nE-Mail: $email\nTéléphone: $phone\nMessage:\n$message";
