@@ -1,4 +1,23 @@
 <body>
+  <div id="commandeModal" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header" style="text-align: center">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="modal-title" id="commandeModalLabel">Livraison ou retrait en boutique</h5>
+          </div>
+          <div class="modal-body">
+            <p>Livraison le midi uniquement sur votre lieu de travail.</p>
+            <p>Regroupez vous afin de bénéficier de la gratuité de la livraison!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary"><a href="https://boutique.painleve.fr">Commander</a></button>
+          </div>
+        </div>
+      </div>
+  </div>
   <div class="container">
       <div class="row justify-content-center">
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-6">
@@ -47,7 +66,7 @@
             </ul>
           </li>
           <li>
-            <a href="contact.php">Commandes</a>
+            <a href="https://boutique.painleve.fr">Commandes</a>
           </li>
           <li>
             <a href="pratique.php">Pratique</a>
